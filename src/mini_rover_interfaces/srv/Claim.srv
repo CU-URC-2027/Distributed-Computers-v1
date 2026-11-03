@@ -1,0 +1,9 @@
+uint16 protocol_version
+string client_id
+string operator_source
+string request_id
+builtin_interfaces/Time stamp
+---
+bool accepted
+string reason
+string session_id

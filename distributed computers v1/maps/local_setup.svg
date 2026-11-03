@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1500" height="1080" viewBox="0 0 1500 1080"><rect width="1500" height="1080" fill="white"/>
+<text x="750" y="42" font-family="DejaVu Sans,sans-serif" font-size="37" font-weight="700" text-anchor="middle" dominant-baseline="central" fill="black">ONE COMPUTER · LOCAL SIMULATION</text>
+<text x="750" y="86" font-family="DejaVu Sans,sans-serif" font-size="28" font-weight="400" text-anchor="middle" dominant-baseline="central" fill="black">Source-verified topology; no LAN crossing</text>
+<rect x="25" y="125" width="1450" height="810" rx="16" fill="#f5f8fb" stroke="#758493" stroke-width="2"/>
+<text x="750" y="162" font-family="DejaVu Sans,sans-serif" font-size="30" font-weight="700" text-anchor="middle" dominant-baseline="central" fill="black">ONE PC · ROS domain 92 · namespace /rover1</text>
+<rect x="60" y="235" width="375" height="420" rx="16" fill="#eaf1fb" stroke="#23658d" stroke-width="2"/>
+<rect x="1065" y="235" width="375" height="420" rx="16" fill="#eaf1fb" stroke="#23658d" stroke-width="2"/>
+<text x="248" y="272" font-family="DejaVu Sans,sans-serif" font-size="34" font-weight="700" text-anchor="middle" dominant-baseline="central" fill="black">C2 GUI</text>
+<text x="248" y="318" font-family="DejaVu Sans,sans-serif" font-size="28" font-weight="400" text-anchor="middle" dominant-baseline="central" fill="black">/rover1/c2_operator</text>
+<text x="248" y="405" font-family="DejaVu Sans,sans-serif" font-size="30" font-weight="400" text-anchor="middle" dominant-baseline="central" fill="black">Operator input</text>
+<text x="248" y="448" font-family="DejaVu Sans,sans-serif" font-size="30" font-weight="400" text-anchor="middle" dominant-baseline="central" fill="black">Authority client</text>
+<text x="248" y="538" font-family="DejaVu Sans,sans-serif" font-size="28" font-weight="700" text-anchor="middle" dominant-baseline="central" fill="black">ROS node</text>
+<text x="1253" y="272" font-family="DejaVu Sans,sans-serif" font-size="30" font-weight="700" text-anchor="middle" dominant-baseline="central" fill="black">Onboard computer</text>
+<text x="1253" y="318" font-family="DejaVu Sans,sans-serif" font-size="30" font-weight="400" text-anchor="middle" dominant-baseline="central" fill="black">/rover1/oc</text>
+<text x="1253" y="405" font-family="DejaVu Sans,sans-serif" font-size="30" font-weight="400" text-anchor="middle" dominant-baseline="central" fill="black">Authority server</text>
+<text x="1253" y="448" font-family="DejaVu Sans,sans-serif" font-size="30" font-weight="400" text-anchor="middle" dominant-baseline="central" fill="black">PWM + watchdogs</text>
+<text x="1253" y="538" font-family="DejaVu Sans,sans-serif" font-size="28" font-weight="700" text-anchor="middle" dominant-baseline="central" fill="black">ROS node</text>
+<text x="750" y="274" font-family="DejaVu Sans,sans-serif" font-size="29" font-weight="700" text-anchor="middle" dominant-baseline="central" fill="black">DriveIntent →</text>
+<text x="750" y="308" font-family="DejaVu Sans,sans-serif" font-size="28" font-weight="400" text-anchor="middle" dominant-baseline="central" fill="black">c2/drive_intent</text>
+<polyline points="435,336 1065,336" fill="none" stroke="#23658d" stroke-width="4"/>
+<polygon points="1065,336 1051.6950761583107,342.92668763312224 1051.6950761583107,329.07331236687776" fill="#23658d"/>
+<text x="750" y="374" font-family="DejaVu Sans,sans-serif" font-size="28" font-weight="700" text-anchor="middle" dominant-baseline="central" fill="black">← ControlState + ChassisState</text>
+<text x="750" y="407" font-family="DejaVu Sans,sans-serif" font-size="27" font-weight="400" text-anchor="middle" dominant-baseline="central" fill="black">control/state · chassis/state</text>
+<polyline points="1065,435 435,435" fill="none" stroke="#23658d" stroke-width="4"/>
+<polygon points="435,435 448.3049238416893,428.07331236687776 448.3049238416893,441.92668763312224" fill="#23658d"/>
+<text x="750" y="475" font-family="DejaVu Sans,sans-serif" font-size="28" font-weight="700" text-anchor="middle" dominant-baseline="central" fill="black">Claim · enable · STOP · reset</text>
+<text x="750" y="507" font-family="DejaVu Sans,sans-serif" font-size="28" font-weight="400" text-anchor="middle" dominant-baseline="central" fill="black">Service request + response</text>
+<polyline points="435,534 1065,534" fill="none" stroke="#23658d" stroke-width="4"/>
+<polygon points="1065,534 1051.6950761583107,540.9266876331222 1051.6950761583107,527.0733123668778" fill="#23658d"/>
+<polygon points="435,534 448.3049238416893,527.0733123668778 448.3049238416893,540.9266876331222" fill="#23658d"/>
+<text x="750" y="576" font-family="DejaVu Sans,sans-serif" font-size="28" font-weight="400" text-anchor="middle" dominant-baseline="central" fill="black">DDS discovery (separate)</text>
+<polyline points="435,606 1065,606" fill="none" stroke="#687580" stroke-width="4" stroke-dasharray="10 8"/>
+<polygon points="1065,606 1051.6950761583107,612.9266876331222 1051.6950761583107,599.0733123668778" fill="#687580"/>
+<polygon points="435,606 448.3049238416893,599.0733123668778 448.3049238416893,612.9266876331222" fill="#687580"/>
+<rect x="60" y="753" width="375" height="124" rx="16" fill="#f4f4f4" stroke="#758493" stroke-width="2"/>
+<text x="248" y="790" font-family="DejaVu Sans,sans-serif" font-size="27" font-weight="700" text-anchor="middle" dominant-baseline="central" fill="black">Optional ROS observer</text>
+<text x="248" y="835" font-family="DejaVu Sans,sans-serif" font-size="29" font-weight="400" text-anchor="middle" dominant-baseline="central" fill="black">diagnostics</text>
+<polyline points="1085,655 1085,701 248,701 248,753" fill="none" stroke="#23658d" stroke-width="4"/>
+<polygon points="248,753 241.07331236687776,739.6950761583107 254.92668763312224,739.6950761583107" fill="#23658d"/>
+<text x="685" y="680" font-family="DejaVu Sans,sans-serif" font-size="27" font-weight="400" text-anchor="middle" dominant-baseline="central" fill="black">diagnostics → observer (not C2 GUI)</text>
+<rect x="1065" y="753" width="375" height="124" rx="16" fill="#eaf6ef" stroke="#38805b" stroke-width="2"/>
+<text x="1253" y="788" font-family="DejaVu Sans,sans-serif" font-size="29" font-weight="700" text-anchor="middle" dominant-baseline="central" fill="black">Simulated Arduino</text>
+<text x="1253" y="830" font-family="DejaVu Sans,sans-serif" font-size="26" font-weight="400" text-anchor="middle" dominant-baseline="central" fill="black">Process, not a ROS node</text>
+<polyline points="1320,655 1320,753" fill="none" stroke="#38805b" stroke-width="4"/>
+<polygon points="1320,753 1313.0733123668776,739.6950761583107 1326.9266876331224,739.6950761583107" fill="#38805b"/>
+<polygon points="1320,655 1326.9266876331224,668.3049238416893 1313.0733123668776,668.3049238416893" fill="#38805b"/>
+<text x="1202" y="688" font-family="DejaVu Sans,sans-serif" font-size="27" font-weight="400" text-anchor="middle" dominant-baseline="central" fill="black">Local PTY</text>
+<text x="1200" y="724" font-family="DejaVu Sans,sans-serif" font-size="27" font-weight="400" text-anchor="middle" dominant-baseline="central" fill="black">v2 JSON</text>
+<text x="750" y="908" font-family="DejaVu Sans,sans-serif" font-size="27" font-weight="400" text-anchor="middle" dominant-baseline="central" fill="black">DDS stays on this PC: shared memory or loopback, depending on RMW.</text>
+<text x="750" y="979" font-family="DejaVu Sans,sans-serif" font-size="27" font-weight="400" text-anchor="middle" dominant-baseline="central" fill="black">Blue: ROS/DDS data · Green: local serial emulation · Dashed gray: discovery</text>
+<text x="750" y="1020" font-family="DejaVu Sans,sans-serif" font-size="26" font-weight="400" text-anchor="middle" dominant-baseline="central" fill="black">Topic/service labels are relative to /rover1. Service names are listed in the guide.</text>
+</svg>

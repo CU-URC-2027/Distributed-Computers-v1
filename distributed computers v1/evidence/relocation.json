@@ -1,0 +1,77 @@
+{
+  "date": "2026-11-03",
+  "previous_package": "/home/liamolczak/Documents/ChatGPT/Deep dive into motor prototype/distributed computers v1",
+  "package": "/home/liamolczak/weeny_ws/distributed computers v1",
+  "workspace_entry": "/home/liamolczak/weeny_ws/scripts/dcv1",
+  "historical_logs": "Pre-relocation logs retain original absolute paths as recorded; resolve their relative suffixes beneath the current package.",
+  "restarted_previous_session": "Headless domain 92 namespace /rover1, disabled; startup and validation results recorded separately.",
+  "verification_time_utc": "2026-11-03T16:17:35.716640+00:00",
+  "authority_tests": "tests/2026-11-03-relocated/result.json",
+  "authority_checks_passed": 18,
+  "restored_session": {
+    "control_state": {
+      "active_source": "",
+      "actual_enabled": false,
+      "applied_session_id": "",
+      "arduino_boot_id": "b2b2c09b00f240e6a39e2f43d9501edc",
+      "arduino_connected": true,
+      "boot_id": "5746f68ad0fa4db98c16a8b97583bef3",
+      "challenge_seq": 595,
+      "controller_state": "DISABLED",
+      "enabled_known": true,
+      "faults": [],
+      "feedback_age_ms": 30.24657399987518,
+      "first_fault": {
+        "code": "NONE",
+        "command_id": 0,
+        "latched": false,
+        "severity": "WARNING",
+        "source": "OC",
+        "time_ms": 0
+      },
+      "first_fault_session_id": "",
+      "first_fault_valid": false,
+      "generation": 1,
+      "input_age_ms": -1000.0,
+      "last_accepted_command_id": 0,
+      "last_applied_command_id": 0,
+      "last_applied_seq": 0,
+      "last_forwarded_seq": 0,
+      "limit_reason": "",
+      "limited_left_pwm": 0,
+      "limited_right_pwm": 0,
+      "mode": "OPEN_LOOP_PWM",
+      "oc_authorized": false,
+      "protocol_version": 2,
+      "reason": "READY_DISABLED",
+      "requested_left_pwm": 0.0,
+      "requested_right_pwm": 0.0,
+      "session_id": "",
+      "stamp": {
+        "nanosec": 91836115,
+        "sec": 1793722618
+      },
+      "state_seq": 595,
+      "stop_latched": false,
+      "target_limited": false
+    },
+    "domain": 92,
+    "namespace": "/rover1",
+    "processes": [
+      {
+        "alive": true,
+        "label": "simulator",
+        "pid": 24469
+      },
+      {
+        "alive": true,
+        "label": "oc",
+        "pid": 24470
+      }
+    ],
+    "run_directory": "/home/liamolczak/weeny_ws/distributed computers v1/evidence/runs/a69b52134f2d42d3857f35107d8cfc2d",
+    "running": true,
+    "session": "a69b52134f2d42d3857f35107d8cfc2d"
+  },
+  "initial_status_probe": "First immediate observer discovery timed out at 2 seconds; subsequent independent probe succeeded with fresh known disabled state."
+}

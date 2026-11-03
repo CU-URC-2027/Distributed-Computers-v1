@@ -1,0 +1,213 @@
+[
+  {
+    "name": "exact_uint64_valid",
+    "packet": {
+      "v": 2,
+      "type": "command",
+      "mode": "OPEN_LOOP_PWM",
+      "op": "TARGETS",
+      "boot_id": "11111111111111111111111111111111",
+      "session_id": "22222222222222222222222222222222",
+      "generation": 2,
+      "sample_seq": 1,
+      "seq": 2,
+      "command_id": 9007199254740993,
+      "source_session": "33333333333333333333333333333333",
+      "targets": {
+        "left": -63,
+        "right": 63
+      }
+    },
+    "valid": true
+  },
+  {
+    "name": "wrong_version",
+    "packet": {
+      "v": 1,
+      "type": "command",
+      "mode": "OPEN_LOOP_PWM",
+      "op": "TARGETS",
+      "boot_id": "11111111111111111111111111111111",
+      "session_id": "22222222222222222222222222222222",
+      "generation": 2,
+      "sample_seq": 1,
+      "seq": 2,
+      "command_id": 9007199254740993,
+      "source_session": "33333333333333333333333333333333",
+      "targets": {
+        "left": -63,
+        "right": 63
+      }
+    },
+    "valid": false
+  },
+  {
+    "name": "float_seq",
+    "packet": {
+      "v": 2,
+      "type": "command",
+      "mode": "OPEN_LOOP_PWM",
+      "op": "TARGETS",
+      "boot_id": "11111111111111111111111111111111",
+      "session_id": "22222222222222222222222222222222",
+      "generation": 2,
+      "sample_seq": 1,
+      "seq": 2.0,
+      "command_id": 9007199254740993,
+      "source_session": "33333333333333333333333333333333",
+      "targets": {
+        "left": -63,
+        "right": 63
+      }
+    },
+    "valid": false
+  },
+  {
+    "name": "bool_seq",
+    "packet": {
+      "v": 2,
+      "type": "command",
+      "mode": "OPEN_LOOP_PWM",
+      "op": "TARGETS",
+      "boot_id": "11111111111111111111111111111111",
+      "session_id": "22222222222222222222222222222222",
+      "generation": 2,
+      "sample_seq": 1,
+      "seq": true,
+      "command_id": 9007199254740993,
+      "source_session": "33333333333333333333333333333333",
+      "targets": {
+        "left": -63,
+        "right": 63
+      }
+    },
+    "valid": false
+  },
+  {
+    "name": "negative_seq",
+    "packet": {
+      "v": 2,
+      "type": "command",
+      "mode": "OPEN_LOOP_PWM",
+      "op": "TARGETS",
+      "boot_id": "11111111111111111111111111111111",
+      "session_id": "22222222222222222222222222222222",
+      "generation": 2,
+      "sample_seq": 1,
+      "seq": -1,
+      "command_id": 9007199254740993,
+      "source_session": "33333333333333333333333333333333",
+      "targets": {
+        "left": -63,
+        "right": 63
+      }
+    },
+    "valid": false
+  },
+  {
+    "name": "overflow_seq",
+    "packet": {
+      "v": 2,
+      "type": "command",
+      "mode": "OPEN_LOOP_PWM",
+      "op": "TARGETS",
+      "boot_id": "11111111111111111111111111111111",
+      "session_id": "22222222222222222222222222222222",
+      "generation": 2,
+      "sample_seq": 1,
+      "seq": 18446744073709551616,
+      "command_id": 9007199254740993,
+      "source_session": "33333333333333333333333333333333",
+      "targets": {
+        "left": -63,
+        "right": 63
+      }
+    },
+    "valid": false
+  },
+  {
+    "name": "unsupported_mode",
+    "packet": {
+      "v": 2,
+      "type": "command",
+      "mode": "WHEEL_SPEED",
+      "op": "TARGETS",
+      "boot_id": "11111111111111111111111111111111",
+      "session_id": "22222222222222222222222222222222",
+      "generation": 2,
+      "sample_seq": 1,
+      "seq": 2,
+      "command_id": 9007199254740993,
+      "source_session": "33333333333333333333333333333333",
+      "targets": {
+        "left": -63,
+        "right": 63
+      }
+    },
+    "valid": false
+  },
+  {
+    "name": "over_pwm",
+    "packet": {
+      "v": 2,
+      "type": "command",
+      "mode": "OPEN_LOOP_PWM",
+      "op": "TARGETS",
+      "boot_id": "11111111111111111111111111111111",
+      "session_id": "22222222222222222222222222222222",
+      "generation": 2,
+      "sample_seq": 1,
+      "seq": 2,
+      "command_id": 9007199254740993,
+      "source_session": "33333333333333333333333333333333",
+      "targets": {
+        "left": 64,
+        "right": 0
+      }
+    },
+    "valid": false
+  },
+  {
+    "name": "nonzero_ping",
+    "packet": {
+      "v": 2,
+      "type": "command",
+      "mode": "OPEN_LOOP_PWM",
+      "op": "PING",
+      "boot_id": "11111111111111111111111111111111",
+      "session_id": "22222222222222222222222222222222",
+      "generation": 2,
+      "sample_seq": 1,
+      "seq": 2,
+      "command_id": 9007199254740993,
+      "source_session": "33333333333333333333333333333333",
+      "targets": {
+        "left": -63,
+        "right": 63
+      }
+    },
+    "valid": false
+  },
+  {
+    "name": "extra_key",
+    "packet": {
+      "v": 2,
+      "type": "command",
+      "mode": "OPEN_LOOP_PWM",
+      "op": "TARGETS",
+      "boot_id": "11111111111111111111111111111111",
+      "session_id": "22222222222222222222222222222222",
+      "generation": 2,
+      "sample_seq": 1,
+      "seq": 2,
+      "command_id": 9007199254740993,
+      "source_session": "33333333333333333333333333333333",
+      "targets": {
+        "left": -63,
+        "right": 63
+      },
+      "debug": "WASD"
+    },
+    "valid": false
+  }
+]

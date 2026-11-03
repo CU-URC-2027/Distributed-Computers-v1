@@ -1,0 +1,102 @@
+URC C2 PROTOTYPE 0.4 — START HERE
+
+The app starts disconnected. It accepts real Xbox input and can now send chassis
+commands after you explicitly connect to the guarded Uno R4 firmware. Always read
+the top banner: SIMULATION, LOCAL UDP TEST or LIVE CHASSIS. The white rover/cyan path
+remain a model in all modes. Arm requests remain previews.
+
+XBOX
+1. Plug in the controller. Choose Xbox controller in the top-left selector.
+2. Before enabling, check CONNECTED and move the LEFT stick. The sliders, T/S values
+   and yellow arrow should change. Choose Right if you want the other stick.
+3. Center the stick and release LB, Space and the mouse hold.
+4. Click Enable controls. For hardware, wait for ROVER ENABLED in the command pane.
+5. Hold LB (left bumper) and move the selected stick. Release LB to send zero drive.
+6. Disarm disables; Escape/STOP latches stop. Reset STOP never enables movement.
+
+Yellow arrow = input. Wheel percentages = permitted command. White rover = model.
+Actual rover state appears separately with applied PWM and acknowledgment age.
+Applied PWM is not measured speed or proof that motors turned.
+The Center sticks button cannot center a physical Xbox stick.
+
+IF INPUT DOES NOT WORK
+Choose Xbox controller, not Sliders (demo) or RC (demo). Check CONNECTED before
+Enable. Reconnect Xbox retries the device. Use the same Python environment that
+has pygame installed. Left/right selection controls which stick drives. The live
+axes show LX, LY, RX, RY; default deadman is LB. No silent slider fallback occurs.
+Disconnect disarms; reconnect requires neutral and Enable again.
+
+SLIDERS AND RC DEMO
+Select Sliders (demo), center, Enable, then hold Space while moving the sliders.
+Alternatively set the sliders first, then hold the mouse drive button. Leaving
+that button releases the mouse hold. Sliders can command a connected chassis:
+'demo' describes the input source, not a guarantee that hardware is disconnected.
+RC (demo) has no physical receiver input and cannot enable a connected chassis.
+
+ROVER CONNECTION / NEXT WEEK
+Connections & Live GPS → Start local test starts a local mock with no motors.
+Return to Drive, enable at neutral and hold LB/Space; inspect returned applied PWM.
+Disconnect / simulation stops and closes the link.
+
+For hardware, read NEXT_WEEK_SETUP.md first. Upload firmware/mini_rover_c2 to the
+Uno R4 WiFi after setting the router credentials. Both PC and R4 join the router.
+Enter the R4 IP and UDP 4210; Connect rover verifies communication without enabling.
+Stock Matthew v6 cannot pass the handshake: it lacks acknowledgments and a watchdog.
+After a previous STOP/disconnect, click Reset STOP and wait for ROVER DISABLED with
+the latch cleared; then return to Drive, center, Enable and hold LB.
+A lost acknowledgment latches a fault. Disconnect/reconnect deliberately to recover.
+Closing the app sends best-effort STOP; the MCU must also stop if commands cease.
+
+OTHER CONTROLS
+Legacy drive: changing tabs, source, stick or app focus disarms. Keep Drive open during legacy drive tests.
+ROS 2 / Manual numbers: applied commands continue across window changes and while minimized.
+There is no run-duration limit while communication is healthy; use Stop or Disarm to end a manual run.
+ROS Xbox input still disarms when the app loses focus.
+Simulate input/link loss stops new input samples; stale input disarms after 250 ms.
+It does not physically disconnect the Wi-Fi router. Hardware link-loss testing is
+in NEXT_WEEK_SETUP.md. Reconnection never automatically resumes motion.
+The software STOP and loop-based watchdog do not replace a physical power cutoff.
+
+ARM
+The known hardware is Nucleo-F446RE, DRV8825/NEMA 17 and MG995. Joint names are still
+placeholders. Disconnect chassis transport to try arm previews: enable, toggle arm
+mode, choose a joint and hold either jog button. Release/leave stops the jog.
+Drive is inhibited in arm mode. No commands are sent to the Nucleo. Read
+ARM_INTERFACE_PLAN.md for the proposed USB serial/ROS path and calibration needs.
+
+LIVE GPS / YOUR ATMEGA328 UNO
+Use firmware/gps_uno_bridge and GPS_HOME_TEST.md. GPS is powered at 3.3 V, TX goes
+to Uno D4, grounds are common, D5 stays unconnected. Verify your actual module leads.
+In Connections & Live GPS select the Uno port and 115200 baud, then Connect USB GPS.
+Close Arduino Serial Monitor first. Direct GPS-to-USB UART adapters use 9600 instead.
+Use rover GPS is only for the documented optional R4 UART configuration/rewiring.
+
+NO FRESH FIX is different from zero latitude/longitude. Go outdoors with clear sky.
+The panel shows valid position, receipt age, satellites, HDOP, speed and bad sentence
+counts. The plot uses East/North metres from the first valid fix. Start new GPS run
+clears the captured run; hold the antenna still for 5 minutes, then Save GPS run.
+Scatter RMS is spread about the sample mean, not error against surveyed truth.
+Logs keep the most recent 20,000 NMEA records and statistics use 3,600 valid fixes.
+
+GPS COMPARISON / TELEMETRY
+Telemetry & Logs retains the synthetic and offline comparison tools. Generate
+synthetic GPS, drive a model path, then return to inspect RMSE and mean differences.
+These are illustrative errors. Load examples/gps_comparison.jsonl to see an offline
+example. GPS_COMPARISON.md specifies the synchronized reference/GPS format.
+Live GPS captures have a different format and are not imported directly here.
+The home stationary/return-to-start tests do not need motor odometry.
+
+Save recent commands + rover state exports about 60 seconds to logs/. It includes
+input, requested motion, model pose and the latest returned state when connected.
+Save GPS run exports a separate raw/parsed capture. Video is not recorded.
+
+CAMERAS
+Front and gripper panels have independent Demo view, Connect snapshot and Disconnect.
+For real snapshots use a URL returning a JPEG/PNG image, not a browser page or RTSP,
+MJPEG or USB stream. Camera age is receipt age, not capture-to-display latency.
+Tab switching currently disarms: this is bench snapshot viewing, not driving video.
+
+FUTURE ONBOARD COMPUTER
+ROS2_INTERFACE_PLAN.md covers Ubuntu 24.04 / ROS 2 Jazzy, ownership and MoveIt.
+C2 requests motion; onboard compute validates/arbitrates; each MCU enforces local
+limits/timeouts. The router transports packets; it does not generate motor signals.

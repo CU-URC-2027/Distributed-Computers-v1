@@ -1,0 +1,3 @@
+uint32 raw_count
+bool measurement_valid
+bool direction_valid

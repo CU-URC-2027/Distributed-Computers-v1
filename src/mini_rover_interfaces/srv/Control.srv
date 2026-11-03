@@ -1,0 +1,12 @@
+uint16 protocol_version
+string mode
+string session_id
+string request_id
+builtin_interfaces/Time stamp
+string oc_boot_id
+uint64 generation
+uint64 challenge_seq
+bool enabled
+---
+bool accepted
+string reason

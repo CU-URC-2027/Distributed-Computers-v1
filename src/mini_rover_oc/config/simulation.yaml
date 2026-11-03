@@ -1,0 +1,6 @@
+/**:
+  ros__parameters:
+    baud: 115200
+    simulated: true
+    pwm_limit: 63
+    response_time: 0.20

@@ -1,0 +1,56 @@
+[
+  {
+    "throttle": 0,
+    "steering": 0,
+    "left": 0,
+    "right": 0
+  },
+  {
+    "throttle": 1,
+    "steering": 0,
+    "left": 63,
+    "right": 63
+  },
+  {
+    "throttle": -1,
+    "steering": 0,
+    "left": -63,
+    "right": -63
+  },
+  {
+    "throttle": 0,
+    "steering": 1,
+    "left": -63,
+    "right": 63
+  },
+  {
+    "throttle": 0,
+    "steering": -1,
+    "left": 63,
+    "right": -63
+  },
+  {
+    "throttle": 1,
+    "steering": 1,
+    "left": 0,
+    "right": 63
+  },
+  {
+    "throttle": 0.5,
+    "steering": 0,
+    "left": 32,
+    "right": 32
+  },
+  {
+    "throttle": -0.5,
+    "steering": 0,
+    "left": -32,
+    "right": -32
+  },
+  {
+    "throttle": 0.2,
+    "steering": 0.4,
+    "left": -13,
+    "right": 38
+  }
+]

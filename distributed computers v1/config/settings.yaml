@@ -1,0 +1,33 @@
+# Local simulation only. CLI flags override this file; omitted keys use defaults.
+# Workspace must already be built with the current protocol v2 interfaces.
+workspace: ~/weeny_ws
+# Use an unused ROS domain 0..232. Tests default to 97 with a unique namespace.
+domain: 92
+# Absolute, non-root ROS namespace; use the same value in every terminal.
+namespace: /rover1
+# A desktop display is needed when true. Override with start --headless.
+gui: true
+command:
+  # Finite normalized values in [-1,1]; positive throttle forward, steering left.
+  throttle: 0.20
+  steering: -0.25
+  # Seconds held by command; finite, greater than zero and at most 3600.
+  duration: 5.0
+oc:
+  # Signed duty ceiling 1..63. The simulated MCU hard ceiling stays at 63.
+  pwm_limit: 63
+simulator:
+  # Positive finite seconds for the illustrative pulse model, not real speed.
+  response_time: 0.20
+fault:
+  # These switches act on OC <-> simulated MCU serial traffic, not C2 DDS.
+  # Each fault command reapplies this whole baseline plus its CLI overrides.
+  # Milliseconds 0..2000 delayed on simulated serial feedback, including replies.
+  delay_ms: 0
+  # Named channels: front_left (FL), rear_left (RL), front_right (FR), rear_right (RR).
+  missing: []
+  # Deterministic all-command dropping, or all-feedback silence, respectively.
+  drop_commands: false
+  silence: false
+# Protocol version, watchdogs, challenges, confirmation deadlines, and rates are fixed.
+# Startup settings require stop/start. Live fault settings need the fault command.

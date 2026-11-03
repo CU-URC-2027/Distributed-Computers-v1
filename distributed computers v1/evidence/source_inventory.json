@@ -1,0 +1,578 @@
+{
+  "snapshot_date": "2026-11-03",
+  "captured_utc": "2026-11-03T16:17:35.716640+00:00",
+  "purpose": "Current source and evidence identities after relocation into weeny_ws; original snapshot preserved separately.",
+  "files": [
+    {
+      "path": "/home/liamolczak/mini-rover-prototype/.build/firmware/build_evidence.json",
+      "sha256": "b25368d16aa9a697915f974bf78b4ebcc5d90d0507435d2d84f21635fceac1c1",
+      "bytes": 1298,
+      "modified_utc": "2026-10-29T01:48:38.311644+00:00"
+    },
+    {
+      "path": "/home/liamolczak/mini-rover-prototype/.build/firmware/compile.log",
+      "sha256": "943294e2cd11e67f05f987e89d540b6a063955aedeaa217c1748dd8f2ff609b7",
+      "bytes": 204,
+      "modified_utc": "2026-10-29T01:48:38.304517+00:00"
+    },
+    {
+      "path": "/home/liamolczak/mini-rover-prototype/README.md",
+      "sha256": "f5c99a987a88b104c7039c63761819b4419fb929117cee9ce5681e6eada07642",
+      "bytes": 6231,
+      "modified_utc": "2026-10-29T01:47:18.688330+00:00"
+    },
+    {
+      "path": "/home/liamolczak/mini-rover-prototype/mini_rover_mule/control_core.h",
+      "sha256": "515e1aa9d9e255d5f7bcb439b7581ba5b535aef1b3e610a0ed7476edc5a0ea65",
+      "bytes": 13040,
+      "modified_utc": "2026-10-29T01:48:35.070426+00:00"
+    },
+    {
+      "path": "/home/liamolczak/mini-rover-prototype/mini_rover_mule/mini_rover_mule.ino",
+      "sha256": "8b6db952bcf8ad59279b40822db7e0c5467fc381897b9f9121a666eef70ab2a3",
+      "bytes": 4947,
+      "modified_utc": "2026-10-28T17:11:49.598798+00:00"
+    },
+    {
+      "path": "/home/liamolczak/mini-rover-prototype/mini_rover_mule/pin_map.h",
+      "sha256": "48120d3d52c709f59535f26f4f8cb94375e321962f3371dc5692bf0783b72d76",
+      "bytes": 1795,
+      "modified_utc": "2026-10-28T17:14:26.254353+00:00"
+    },
+    {
+      "path": "/home/liamolczak/mini-rover-prototype/scripts/build_firmware.sh",
+      "sha256": "99f7a49cf10f35869bdb2e4c01f2ec7924cf2d970383a2f6c1814f73f35b1f97",
+      "bytes": 2849,
+      "modified_utc": "2026-10-29T01:47:18.678738+00:00"
+    },
+    {
+      "path": "/home/liamolczak/mini-rover-prototype/scripts/test_firmware.sh",
+      "sha256": "aa9465ec94f61810c929efaf2e9fa72558201c83de610b08eddcda1986b2cebc",
+      "bytes": 539,
+      "modified_utc": "2026-10-28T17:11:49.614797+00:00"
+    },
+    {
+      "path": "/home/liamolczak/mini-rover-prototype/tests/native_runner.cpp",
+      "sha256": "6b894833137193a5194dff5eb0ca2440c032a97f5f1e8e7b2ad48e6710a9d2a3",
+      "bytes": 2126,
+      "modified_utc": "2026-10-29T01:48:35.070488+00:00"
+    },
+    {
+      "path": "/home/liamolczak/mini-rover-prototype/tests/test_conformance.py",
+      "sha256": "94950d28cfeeccf9f4efa7ab9b792b7e61d61baff10ff483343ae50351b62b50",
+      "bytes": 7137,
+      "modified_utc": "2026-10-29T01:48:35.070536+00:00"
+    },
+    {
+      "path": "/home/liamolczak/weeny_ws/AGENTS.md",
+      "sha256": "107a1f8f340088b90ab919def66939e36086a841358886513002dd33fb17cc2e",
+      "bytes": 1244,
+      "modified_utc": "2026-10-28T16:58:31.207291+00:00"
+    },
+    {
+      "path": "/home/liamolczak/weeny_ws/ARDUINO_MIGRATION_TEST_PLAN.md",
+      "sha256": "2dd5ad525b5f21344ea3ff2aaa5741c32267f558768e967f1d0ac2b0b68d36b6",
+      "bytes": 3655,
+      "modified_utc": "2026-10-28T17:02:20.467060+00:00"
+    },
+    {
+      "path": "/home/liamolczak/weeny_ws/INTEGRATION_TEST_PLAN.md",
+      "sha256": "cc8fe33faf4297d91c30702c644c939ce5caac4ad95f3c4855cec5e88c452652",
+      "bytes": 20069,
+      "modified_utc": "2026-10-28T17:02:20.468951+00:00"
+    },
+    {
+      "path": "/home/liamolczak/weeny_ws/INTERFACE_V2.md",
+      "sha256": "f08f9c6ab1b51544cfa00a66dfff707a30d318b19c5fabfe8b34516bfb789eb2",
+      "bytes": 9738,
+      "modified_utc": "2026-10-29T16:29:22.405708+00:00"
+    },
+    {
+      "path": "/home/liamolczak/weeny_ws/OC_PROTOTYPE.md",
+      "sha256": "ce1c5a859242a040ea7f9cc42abd977df71365a3ba4f09161f58a05a75c03e35",
+      "bytes": 10204,
+      "modified_utc": "2026-10-29T22:01:22.199763+00:00"
+    },
+    {
+      "path": "/home/liamolczak/weeny_ws/README.md",
+      "sha256": "0abfbb35f58bf39943ec13d6fcf3529b701cd662daeac00bd6b27c189d9bb655",
+      "bytes": 5324,
+      "modified_utc": "2026-11-03T16:15:26.597604+00:00",
+      "previous_sha256": "d78665e5921c8fa09fa17f71e8b595bfdf3d06b8e9a5b0fce5ab85b7918bb766"
+    },
+    {
+      "path": "/home/liamolczak/weeny_ws/SOURCE_MANIFEST_V2.json",
+      "sha256": "31e76090734cd7379b11438aa376b70bed0fe993be94d3a0ecaecf981e67e764",
+      "bytes": 16889,
+      "modified_utc": "2026-10-29T22:02:15.721450+00:00"
+    },
+    {
+      "path": "/home/liamolczak/weeny_ws/USB_TELEMETRY.md",
+      "sha256": "dbc9eb7a752032ea27539de3d2a82557c28874b9276b032fb221807b72bde1e9",
+      "bytes": 11334,
+      "modified_utc": "2026-10-28T17:02:20.468620+00:00"
+    },
+    {
+      "path": "/home/liamolczak/weeny_ws/VALIDATION.md",
+      "sha256": "a46597a1940a5a58386a5c6e80cfc517f22cf6b47cde7d5fd93439113add4060",
+      "bytes": 2381,
+      "modified_utc": "2026-10-28T17:02:20.467758+00:00"
+    },
+    {
+      "path": "/home/liamolczak/weeny_ws/VALIDATION_OC.md",
+      "sha256": "6921a63a153e319b2c262f31adafc411e2c51d829e737de0254f9503000e9e61",
+      "bytes": 4078,
+      "modified_utc": "2026-10-28T17:02:20.467919+00:00"
+    },
+    {
+      "path": "/home/liamolczak/weeny_ws/VALIDATION_V2.md",
+      "sha256": "7a0beef9d780bfad83c5ee863c6ff37b0dfc8032e0cba7e96e60cbb01d1b04c2",
+      "bytes": 6585,
+      "modified_utc": "2026-10-29T16:32:13.694397+00:00"
+    },
+    {
+      "path": "/home/liamolczak/weeny_ws/scripts/build.sh",
+      "sha256": "19a394ef7d82604150c16dd132b5db662a6d80d942ab60c4ce6605668b5cec4a",
+      "bytes": 315,
+      "modified_utc": "2026-10-27T01:45:01.226607+00:00"
+    },
+    {
+      "path": "/home/liamolczak/weeny_ws/scripts/check_hardware_route.py",
+      "sha256": "9e0afee17b899f91be134758aabd6acb3b40adc4e9facac8b34d24fa7618d160",
+      "bytes": 7488,
+      "modified_utc": "2026-10-29T16:20:22.178147+00:00"
+    },
+    {
+      "path": "/home/liamolczak/weeny_ws/scripts/copy_to_workspace.py",
+      "sha256": "b3decf3da5dc446e98e09f08266d3fddb4a0e48d79ae5c5b094561873a29dcc9",
+      "bytes": 1744,
+      "modified_utc": "2026-10-27T01:45:01.230185+00:00"
+    },
+    {
+      "path": "/home/liamolczak/weeny_ws/scripts/run_demo.sh",
+      "sha256": "73ed1d1d92bc641d1749d6a7c3f989525e1a5219a52feaa7328edb7ad3a81d52",
+      "bytes": 442,
+      "modified_utc": "2026-10-29T01:45:25.623019+00:00"
+    },
+    {
+      "path": "/home/liamolczak/weeny_ws/scripts/run_hardware.sh",
+      "sha256": "e7f5c9bee22c41cb5a6d75f3b91888d0f74c787ba7079a92c1e99c12dc55b7af",
+      "bytes": 306,
+      "modified_utc": "2026-10-29T16:31:18.178681+00:00"
+    },
+    {
+      "path": "/home/liamolczak/weeny_ws/scripts/run_tests.sh",
+      "sha256": "918cd466cc6802d71c42c6741c6fa651af42ef87887b725a8cb020954d3d0f9f",
+      "bytes": 1206,
+      "modified_utc": "2026-10-29T01:46:32.081967+00:00"
+    },
+    {
+      "path": "/home/liamolczak/weeny_ws/src/mini_rover_bridge/launch/motor_telemetry.launch.py",
+      "sha256": "c2b30bfc7c44cb947ccd3c23e23d49543e1ae619e73c4f2e2435dc1049912050",
+      "bytes": 806,
+      "modified_utc": "2026-10-25T20:01:06.080317+00:00"
+    },
+    {
+      "path": "/home/liamolczak/weeny_ws/src/mini_rover_bridge/mini_rover_bridge/__init__.py",
+      "sha256": "9a01c48a9f37d3d96f85d08d4b93737906b7ad3dc122ee824e9fc91bf33a24cc",
+      "bytes": 39,
+      "modified_utc": "2026-10-25T20:01:05.905316+00:00"
+    },
+    {
+      "path": "/home/liamolczak/weeny_ws/src/mini_rover_bridge/mini_rover_bridge/node.py",
+      "sha256": "47a0f113d32d2b284a5833b7e298384c4bca6f2573d20a0f4191058bb9310f25",
+      "bytes": 6306,
+      "modified_utc": "2026-10-25T20:02:19.585825+00:00"
+    },
+    {
+      "path": "/home/liamolczak/weeny_ws/src/mini_rover_bridge/mini_rover_bridge/protocol.py",
+      "sha256": "378158c5a6660ca158fbe806e86a0c9d65207930eb833a94d598d62c71bd2e46",
+      "bytes": 2521,
+      "modified_utc": "2026-10-25T20:01:05.948316+00:00"
+    },
+    {
+      "path": "/home/liamolczak/weeny_ws/src/mini_rover_bridge/package.xml",
+      "sha256": "6563a7eee2d5ef06eaa9ec75d3e2458b00747d20551198d7b9d7d72b8b2373ad",
+      "bytes": 769,
+      "modified_utc": "2026-10-25T20:02:19.544824+00:00"
+    },
+    {
+      "path": "/home/liamolczak/weeny_ws/src/mini_rover_bridge/setup.cfg",
+      "sha256": "b2f1e030d6da0377a27c0d0a72ac27f45fa4954001a3c28a7192d178ed076c8d",
+      "bytes": 152,
+      "modified_utc": "2026-10-25T20:01:05.673314+00:00"
+    },
+    {
+      "path": "/home/liamolczak/weeny_ws/src/mini_rover_bridge/setup.py",
+      "sha256": "50a6790ba92c77c7bda7aed6f1abb5fa6e09707242cedfff8a3c5031dc0ad612",
+      "bytes": 765,
+      "modified_utc": "2026-10-25T20:01:05.644314+00:00"
+    },
+    {
+      "path": "/home/liamolczak/weeny_ws/src/mini_rover_bridge/test/test_protocol.py",
+      "sha256": "b61e3f6f84cb03b01191c27a810d469e807286c0747eb065847c43716197de4a",
+      "bytes": 2661,
+      "modified_utc": "2026-10-25T20:02:43.548998+00:00"
+    },
+    {
+      "path": "/home/liamolczak/weeny_ws/src/mini_rover_bridge/test/test_serial_ros.py",
+      "sha256": "ea63857ba7633386b2785c81e4712a28127e72bb5314039f2ebdc38d50f9edc5",
+      "bytes": 5491,
+      "modified_utc": "2026-10-25T20:02:43.603998+00:00"
+    },
+    {
+      "path": "/home/liamolczak/weeny_ws/src/mini_rover_c2/mini_rover_c2/__init__.py",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0,
+      "modified_utc": "2026-10-26T21:00:29.024437+00:00"
+    },
+    {
+      "path": "/home/liamolczak/weeny_ws/src/mini_rover_c2/mini_rover_c2/cli.py",
+      "sha256": "12c8db049671eaabc329472ff7a1fc5b0df2a465d285da6e53f561662b241eac",
+      "bytes": 3490,
+      "modified_utc": "2026-10-29T01:45:34.731515+00:00"
+    },
+    {
+      "path": "/home/liamolczak/weeny_ws/src/mini_rover_c2/mini_rover_c2/gui.py",
+      "sha256": "caffeae2ee726650971c6eb71cb08fbff4eb57d42a7fd1a75b75971ec2e4b671",
+      "bytes": 11760,
+      "modified_utc": "2026-10-29T01:45:34.731467+00:00"
+    },
+    {
+      "path": "/home/liamolczak/weeny_ws/src/mini_rover_c2/mini_rover_c2/ros_client.py",
+      "sha256": "e0010b8e072ffffb0095552ca25f437a06fd940af9e4a089fabefc946eebe3f7",
+      "bytes": 9133,
+      "modified_utc": "2026-10-29T01:45:34.731349+00:00"
+    },
+    {
+      "path": "/home/liamolczak/weeny_ws/src/mini_rover_c2/package.xml",
+      "sha256": "0d06247ea55d63a07328675dd6063e3fcd495ea1ef191f0200687e4aa58e2366",
+      "bytes": 656,
+      "modified_utc": "2026-10-26T21:00:29.024553+00:00"
+    },
+    {
+      "path": "/home/liamolczak/weeny_ws/src/mini_rover_c2/setup.cfg",
+      "sha256": "aaee23bd164652eb5ef7a8ddc805c6d9f1622c8a6aadf56bebb62a47150c5ec2",
+      "bytes": 95,
+      "modified_utc": "2026-10-26T21:00:29.024532+00:00"
+    },
+    {
+      "path": "/home/liamolczak/weeny_ws/src/mini_rover_c2/setup.py",
+      "sha256": "bdba046b6f4f282af2b75881f84bc6fc2f02bed48d37a8c37608a4c1be4de245",
+      "bytes": 899,
+      "modified_utc": "2026-10-26T21:00:29.024570+00:00"
+    },
+    {
+      "path": "/home/liamolczak/weeny_ws/src/mini_rover_c2/test/test_gui_notices.py",
+      "sha256": "7037d93f89954cdc4ca5ed745e9d16e16f116bb39dd9faeb29b63b5b1cb3db90",
+      "bytes": 2153,
+      "modified_utc": "2026-10-29T01:46:07.341524+00:00"
+    },
+    {
+      "path": "/home/liamolczak/weeny_ws/src/mini_rover_control/mini_rover_control/__init__.py",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0,
+      "modified_utc": "2026-10-26T21:00:29.022600+00:00"
+    },
+    {
+      "path": "/home/liamolczak/weeny_ws/src/mini_rover_control/mini_rover_control/arduino.py",
+      "sha256": "a7377e59d14034cb70fd2bf627f2b05a19694b21e78f2c7bbc7bed53e1216f54",
+      "bytes": 7079,
+      "modified_utc": "2026-10-29T01:48:35.070311+00:00"
+    },
+    {
+      "path": "/home/liamolczak/weeny_ws/src/mini_rover_control/mini_rover_control/c2.py",
+      "sha256": "e2f04f59ca4fd0909423e4155a823837bd4f7e21404b5280f6f47fb4bce35d86",
+      "bytes": 5434,
+      "modified_utc": "2026-10-29T01:45:34.731253+00:00"
+    },
+    {
+      "path": "/home/liamolczak/weeny_ws/src/mini_rover_control/mini_rover_control/contracts.py",
+      "sha256": "4f45f5fa4045c73f9eb8246458cef9f8dc4c80c7ae5eee6c24193bbab696ffc6",
+      "bytes": 4518,
+      "modified_utc": "2026-10-28T16:50:55.247105+00:00"
+    },
+    {
+      "path": "/home/liamolczak/weeny_ws/src/mini_rover_control/mini_rover_control/oc.py",
+      "sha256": "cbf5b559ae2cd7825288c64c2af12f23938982d21aed0a4a261aedc9035389fc",
+      "bytes": 16882,
+      "modified_utc": "2026-10-28T17:14:24.116868+00:00"
+    },
+    {
+      "path": "/home/liamolczak/weeny_ws/src/mini_rover_control/mini_rover_control/protocol.py",
+      "sha256": "3037de0b430c177b26304be357aba006df310a01a6b7a8997ecaf67bdd67b777",
+      "bytes": 5337,
+      "modified_utc": "2026-10-28T16:50:55.247187+00:00"
+    },
+    {
+      "path": "/home/liamolczak/weeny_ws/src/mini_rover_control/mini_rover_control/run_log.py",
+      "sha256": "164a0d28469ffb7767377365d7b45387db2518b4d87256a0a12fc541cb38c92e",
+      "bytes": 1895,
+      "modified_utc": "2026-10-26T21:07:47.680067+00:00"
+    },
+    {
+      "path": "/home/liamolczak/weeny_ws/src/mini_rover_control/mini_rover_control/serial_port.py",
+      "sha256": "f7818a9807f92c72169897cf4c7c253f73b2357b840fddd6ed6742e2fb7003e2",
+      "bytes": 2359,
+      "modified_utc": "2026-10-26T21:00:28.947602+00:00"
+    },
+    {
+      "path": "/home/liamolczak/weeny_ws/src/mini_rover_control/package.xml",
+      "sha256": "1f8f6b5e014b29ebb88419e56cf336981115447198c50f08263e41f40f05ca45",
+      "bytes": 521,
+      "modified_utc": "2026-10-26T21:00:29.024102+00:00"
+    },
+    {
+      "path": "/home/liamolczak/weeny_ws/src/mini_rover_control/setup.cfg",
+      "sha256": "8743cd5dea9e5722b94d3db05bb63316882e3fc965514732dab523638bc3f9b6",
+      "bytes": 105,
+      "modified_utc": "2026-10-26T21:00:29.024065+00:00"
+    },
+    {
+      "path": "/home/liamolczak/weeny_ws/src/mini_rover_control/setup.py",
+      "sha256": "6193ed25be6e33dd52ef4f21d4015a7477e4e7fef9f40b8907d0c6ab9d0d37fe",
+      "bytes": 878,
+      "modified_utc": "2026-10-26T21:00:29.024126+00:00"
+    },
+    {
+      "path": "/home/liamolczak/weeny_ws/src/mini_rover_control/test/test_c2_v2.py",
+      "sha256": "0ee5ce81a315143c22fce90f7ee11f5f84e503e38eb33779e0c2b105554e0ced",
+      "bytes": 5945,
+      "modified_utc": "2026-10-29T01:45:34.734161+00:00"
+    },
+    {
+      "path": "/home/liamolczak/weeny_ws/src/mini_rover_control/test/test_contract_v2.py",
+      "sha256": "82fb8472f564a76cab1e9092a0be43e6bc300fb84b715f8226c8a476c7bbb524",
+      "bytes": 4154,
+      "modified_utc": "2026-10-28T16:59:54.594166+00:00"
+    },
+    {
+      "path": "/home/liamolczak/weeny_ws/src/mini_rover_control/test/test_controllers.py",
+      "sha256": "0dbae219321adc929b3edea30b4b436d3d4c2d34fe74439cbbaf6fa31ef15553",
+      "bytes": 2496,
+      "modified_utc": "2026-10-28T17:05:26.577546+00:00"
+    },
+    {
+      "path": "/home/liamolczak/weeny_ws/src/mini_rover_control/test/test_oc_v2.py",
+      "sha256": "05612a577de351eb005d177054ffabdb2c1936b0b41c5e70b47e7fcc995722fa",
+      "bytes": 5188,
+      "modified_utc": "2026-10-28T17:13:37.358517+00:00"
+    },
+    {
+      "path": "/home/liamolczak/weeny_ws/src/mini_rover_control/test/test_route_v2.py",
+      "sha256": "b93e065b0f7187cd7b7eb29285dc16950d842557729fcbd4b617c7b15b641201",
+      "bytes": 5713,
+      "modified_utc": "2026-10-28T17:09:17.864778+00:00"
+    },
+    {
+      "path": "/home/liamolczak/weeny_ws/src/mini_rover_interfaces/CMakeLists.txt",
+      "sha256": "e5c05c96d3a522ba67ee31fd72412e7411cb9bbf03e660ae351077959e15ac57",
+      "bytes": 520,
+      "modified_utc": "2026-10-28T16:50:55.247446+00:00"
+    },
+    {
+      "path": "/home/liamolczak/weeny_ws/src/mini_rover_interfaces/msg/ChassisState.msg",
+      "sha256": "da7eecee51245113b1d04de4d89522e40c92851c53c60a46047bde307fbac19a",
+      "bytes": 448,
+      "modified_utc": "2026-10-28T16:50:55.247359+00:00"
+    },
+    {
+      "path": "/home/liamolczak/weeny_ws/src/mini_rover_interfaces/msg/ControlState.msg",
+      "sha256": "0180026ba4b3e536d33c778db495fe20b2296535adc58468a7da95714eb06f73",
+      "bytes": 748,
+      "modified_utc": "2026-10-28T16:50:55.247314+00:00"
+    },
+    {
+      "path": "/home/liamolczak/weeny_ws/src/mini_rover_interfaces/msg/DriveIntent.msg",
+      "sha256": "d346c0d452a95c19ef2177cb45ab88328218c6a2301c9f1c0960c4465af59977",
+      "bytes": 276,
+      "modified_utc": "2026-10-28T16:50:55.247243+00:00"
+    },
+    {
+      "path": "/home/liamolczak/weeny_ws/src/mini_rover_interfaces/msg/Fault.msg",
+      "sha256": "0c7001943ce9d31e006a5e2076b7946824e2a0b871e6f8dc00ec84847851bd3e",
+      "bytes": 88,
+      "modified_utc": "2026-10-28T16:50:55.247285+00:00"
+    },
+    {
+      "path": "/home/liamolczak/weeny_ws/src/mini_rover_interfaces/msg/MotorTelemetry.msg",
+      "sha256": "41770cf507dcf9c2100b12a6c7a7b9a6b115b4a016e6d8174cf640a0991cbb73",
+      "bytes": 544,
+      "modified_utc": "2026-10-25T20:01:05.515313+00:00"
+    },
+    {
+      "path": "/home/liamolczak/weeny_ws/src/mini_rover_interfaces/msg/WheelState.msg",
+      "sha256": "344172c319f4472dab7ed749708b80ffe05d6da5f0e0c974bb0d33af2000a1c1",
+      "bytes": 61,
+      "modified_utc": "2026-10-28T16:50:55.247338+00:00"
+    },
+    {
+      "path": "/home/liamolczak/weeny_ws/src/mini_rover_interfaces/package.xml",
+      "sha256": "75a50aa56a0b7f6b84ecc469173fb2855c868530184bd80f66e1e89fef8108bc",
+      "bytes": 641,
+      "modified_utc": "2026-10-25T20:01:05.416312+00:00"
+    },
+    {
+      "path": "/home/liamolczak/weeny_ws/src/mini_rover_interfaces/srv/Claim.srv",
+      "sha256": "17e94bce400f7207ba40a8e216853c2d7a93d8f958b187849b6c61c96524083c",
+      "bytes": 162,
+      "modified_utc": "2026-10-28T16:50:55.247382+00:00"
+    },
+    {
+      "path": "/home/liamolczak/weeny_ws/src/mini_rover_interfaces/srv/Control.srv",
+      "sha256": "c1bab4512f4bb58bfe02f1687c5f208df413798b93375db500fe816c91393fd9",
+      "bytes": 204,
+      "modified_utc": "2026-10-28T16:50:55.247405+00:00"
+    },
+    {
+      "path": "/home/liamolczak/weeny_ws/src/mini_rover_oc/config/simulation.yaml",
+      "sha256": "a3772ef48e627d3bf8e68943dfe43e2104c43aebb644d1a3ec70bf45a0b6b2a3",
+      "bytes": 103,
+      "modified_utc": "2026-10-28T17:11:17.221295+00:00"
+    },
+    {
+      "path": "/home/liamolczak/weeny_ws/src/mini_rover_oc/launch/demo.launch.py",
+      "sha256": "83e92d8f09d280afa592815623eaae5f237234d94caf1a6d9e2ddedf0fb36806",
+      "bytes": 1786,
+      "modified_utc": "2026-10-27T02:18:37.353483+00:00"
+    },
+    {
+      "path": "/home/liamolczak/weeny_ws/src/mini_rover_oc/launch/hardware.launch.py",
+      "sha256": "7fe74142f94f08645a9c4c410e7d0137bc2a1ed74801b0b3e08c664f93bcf8bc",
+      "bytes": 1603,
+      "modified_utc": "2026-10-28T17:11:17.224295+00:00"
+    },
+    {
+      "path": "/home/liamolczak/weeny_ws/src/mini_rover_oc/mini_rover_oc/__init__.py",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0,
+      "modified_utc": "2026-10-26T21:00:29.024126+00:00"
+    },
+    {
+      "path": "/home/liamolczak/weeny_ws/src/mini_rover_oc/mini_rover_oc/node.py",
+      "sha256": "b1dac0c91c577e13f3e197adcfd59e89497127bc5cd9e314adcc66c9029ffada",
+      "bytes": 9566,
+      "modified_utc": "2026-10-29T01:46:47.727728+00:00"
+    },
+    {
+      "path": "/home/liamolczak/weeny_ws/src/mini_rover_oc/package.xml",
+      "sha256": "16ec252e2f05e0aab0879d7483242ec557a2c73135c434682f2f1716fd8eb97f",
+      "bytes": 772,
+      "modified_utc": "2026-10-26T21:09:14.851144+00:00"
+    },
+    {
+      "path": "/home/liamolczak/weeny_ws/src/mini_rover_oc/setup.cfg",
+      "sha256": "e4d263344ab13eceebd563986f128d1c697cc0cbf81dd7a5a099f386780342f0",
+      "bytes": 95,
+      "modified_utc": "2026-10-26T21:00:29.024246+00:00"
+    },
+    {
+      "path": "/home/liamolczak/weeny_ws/src/mini_rover_oc/setup.py",
+      "sha256": "994d0d70087e954f1248c3ba51c7ac55e87bd1c3a84361fd7a990b8eb502b6d0",
+      "bytes": 848,
+      "modified_utc": "2026-10-26T21:00:29.024297+00:00"
+    },
+    {
+      "path": "/home/liamolczak/weeny_ws/src/mini_rover_oc/test/test_end_to_end.py",
+      "sha256": "3248fca23fc0c6f8c317612c99e85e0e240568a0dd26d90121e0963186f3f7d5",
+      "bytes": 11931,
+      "modified_utc": "2026-10-29T01:45:25.623084+00:00"
+    },
+    {
+      "path": "/home/liamolczak/weeny_ws/src/mini_rover_oc/test/test_services_v2.py",
+      "sha256": "14d60d99d03220d55ba967f7ac443e66819f638cc3d5c5844313f85fcbe26408",
+      "bytes": 3124,
+      "modified_utc": "2026-10-29T01:46:47.730978+00:00"
+    },
+    {
+      "path": "/home/liamolczak/weeny_ws/src/mini_rover_sim/mini_rover_sim/__init__.py",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0,
+      "modified_utc": "2026-10-26T21:00:29.024297+00:00"
+    },
+    {
+      "path": "/home/liamolczak/weeny_ws/src/mini_rover_sim/mini_rover_sim/simulator.py",
+      "sha256": "b80122da51fe119ab0ad97fb7a9f8e465a0d9b3b0cfba5dd6d9cd7418b88e5c3",
+      "bytes": 4799,
+      "modified_utc": "2026-10-28T17:13:10.200745+00:00"
+    },
+    {
+      "path": "/home/liamolczak/weeny_ws/src/mini_rover_sim/package.xml",
+      "sha256": "caf850726f071ee2f33436f50252a6b47686938988614011ca116606d695b2cf",
+      "bytes": 541,
+      "modified_utc": "2026-10-26T21:00:29.024415+00:00"
+    },
+    {
+      "path": "/home/liamolczak/weeny_ws/src/mini_rover_sim/setup.cfg",
+      "sha256": "e6647fe6cf16224162555131190bd164229df44356387a6d4d100fd33bb09154",
+      "bytes": 97,
+      "modified_utc": "2026-10-26T21:00:29.024395+00:00"
+    },
+    {
+      "path": "/home/liamolczak/weeny_ws/src/mini_rover_sim/setup.py",
+      "sha256": "34c6f9bad81edf3e756c1b1c546f272806b7c6aa793aaaf5f24a15121ba7ebf5",
+      "bytes": 882,
+      "modified_utc": "2026-10-26T21:00:29.024437+00:00"
+    },
+    {
+      "path": "/home/liamolczak/weeny_ws/validation/board-capture-summary.json",
+      "sha256": "5f7d96c5230d8e5a685e59d82ee1be2230c5b20887d6677696ee071afa997001",
+      "bytes": 264,
+      "modified_utc": "2026-10-29T16:20:22.211965+00:00"
+    },
+    {
+      "path": "/home/liamolczak/weeny_ws/validation/board-route-20261029/result.json",
+      "sha256": "33a981b2f96d178bd5be20a94a6e301f28e9f0019ff00582ac91eb5afc93b654",
+      "bytes": 27617,
+      "modified_utc": "2026-10-29T16:26:59.824919+00:00"
+    },
+    {
+      "path": "/home/liamolczak/weeny_ws/validation/board-route-summary.json",
+      "sha256": "4d4f586d8282604a86d52e6c956f35eb2043ee374b782432e57962be31c65c16",
+      "bytes": 2219,
+      "modified_utc": "2026-10-29T16:28:59.425999+00:00"
+    },
+    {
+      "path": "/home/liamolczak/weeny_ws/validation/firmware-build-evidence.json",
+      "sha256": "b25368d16aa9a697915f974bf78b4ebcc5d90d0507435d2d84f21635fceac1c1",
+      "bytes": 1298,
+      "modified_utc": "2026-10-29T01:50:37.795523+00:00"
+    },
+    {
+      "path": "/home/liamolczak/weeny_ws/validation/firmware-upload.log",
+      "sha256": "576b9816eb5540c1499154e17569b680b9f5b307860f72d4a94cc0884429e65e",
+      "bytes": 940,
+      "modified_utc": "2026-10-29T01:51:33.428316+00:00"
+    },
+    {
+      "path": "/home/liamolczak/weeny_ws/validation/reupload-after-reconnect.log",
+      "sha256": "a5feca5de82d57d44ba79b2a5c75d6e7382bc3b2441f33a9fc75115b547c0024",
+      "bytes": 2688,
+      "modified_utc": "2026-10-29T16:26:22.711804+00:00"
+    },
+    {
+      "path": "/home/liamolczak/weeny_ws/validation/startup-followup.json",
+      "sha256": "bbce3c56fbd3fb8047a32a3121e7db5fe6eba7a5072b68a1bf0a531d4b5afa4b",
+      "bytes": 224,
+      "modified_utc": "2026-10-29T16:30:27.383086+00:00"
+    },
+    {
+      "path": "/home/liamolczak/weeny_ws/validation/v2-build.log",
+      "sha256": "ce8ee210af82945c00703c100b0d242a0ae53957ecaf02514dba1678e4c67bcc",
+      "bytes": 446,
+      "modified_utc": "2026-10-29T01:48:29.374566+00:00"
+    },
+    {
+      "path": "/home/liamolczak/weeny_ws/validation/v2-tests.log",
+      "sha256": "69283a70a0394a86bf5cb7684ad99797fafc24f1f41110c5e3e30f92ff3a43e2",
+      "bytes": 425,
+      "modified_utc": "2026-10-29T01:49:07.191584+00:00"
+    },
+    {
+      "path": "/home/liamolczak/weeny_ws/scripts/dcv1",
+      "sha256": "751424d92c08dd19690363e9dfda20c6a9dc136c8a6ef8dbd7f6191862bbed2f",
+      "bytes": 174,
+      "modified_utc": "2026-11-03T16:15:26.597296+00:00"
+    }
+  ]
+}

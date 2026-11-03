@@ -1,0 +1,14 @@
+uint16 protocol_version
+string mode
+string session_id
+uint64 command_id
+builtin_interfaces/Time stamp
+string oc_boot_id
+uint64 generation
+uint64 challenge_seq
+string operator_source
+bool enable_requested
+bool deadman_held
+bool stop_requested
+float64 throttle
+float64 steering

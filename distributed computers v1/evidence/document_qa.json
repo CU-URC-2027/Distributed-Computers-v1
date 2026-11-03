@@ -1,0 +1,50 @@
+{
+  "date": "2026-11-03",
+  "passed": true,
+  "render_runtime": "Bundled dependencies 26.1026.10807",
+  "documents": [
+    {
+      "file": "README.docx",
+      "sha256": "9cdf120d5c0a65cdd2dbf74bb9380e0d42e43d16a5cbb8e8f3e060ece789e857",
+      "rendered_pages": 6,
+      "all_pages_visually_reviewed": true
+    },
+    {
+      "file": "docs/01 OC prototype.docx",
+      "sha256": "73fb55bbeadcc4787be3e09878e9037cee7a1bababfcd2ccd96c26a28f2f710f",
+      "rendered_pages": 5,
+      "all_pages_visually_reviewed": true
+    },
+    {
+      "file": "docs/02 Command authority and interfaces.docx",
+      "sha256": "4331fc173de7841408a8a440b3a7142e9a738d063d180093af4fc9992ab08870",
+      "rendered_pages": 5,
+      "all_pages_visually_reviewed": true
+    },
+    {
+      "file": "docs/03 Parameters and test scenarios.docx",
+      "sha256": "bad9c6d1a4ad4db8e587d98d579054845fac374e1acf0417d97796d77d26d3e3",
+      "rendered_pages": 4,
+      "all_pages_visually_reviewed": true
+    },
+    {
+      "file": "docs/04 ROS2 nodes and network communication.docx",
+      "sha256": "bab857303999b12b01a96005b4b97de23f0ea3d566689376ff39a54630606c51",
+      "rendered_pages": 5,
+      "all_pages_visually_reviewed": true
+    },
+    {
+      "file": "docs/05 Validation and hardware context.docx",
+      "sha256": "618f5b7fd657a82ed424422f3aee7141538c4f38dc70c63053b2cf77acb336a0",
+      "rendered_pages": 3,
+      "all_pages_visually_reviewed": true
+    },
+    {
+      "file": "docs/06 Arduino migration test plan.docx",
+      "sha256": "2a2384a1c92aa1a03a0be5f7217ed323da5eb3095c764324b3acefa2efd1b927",
+      "rendered_pages": 2,
+      "all_pages_visually_reviewed": true
+    }
+  ],
+  "total_pages": 30
+}

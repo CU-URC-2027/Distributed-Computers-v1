@@ -1,0 +1,22 @@
+# ROS builds and local sessions
+/build/
+/install/
+/log/
+/run_logs/
+/validation/
+/.dcv1_build/
+**/__pycache__/
+**/.pytest_cache/
+*.py[cod]
+/distributed computers v1/.runtime/
+/distributed computers v1/evidence/runs/
+/distributed computers v1/evidence/tests/
+# Credentials and local editor files
+.env
+.env.*
+**/arduino_secrets.h
+**/wifi_credentials.h
+*.pem
+*.key
+.vscode/
+.idea/
