@@ -48,13 +48,13 @@
     },
     {
       "path": "docs/06 Arduino migration test plan.docx",
-      "bytes": 39310,
-      "sha256": "2a2384a1c92aa1a03a0be5f7217ed323da5eb3095c764324b3acefa2efd1b927"
+      "bytes": 42350,
+      "sha256": "94bc4450d78c36707240c598ee410f75ef47eb354ff78596bf3988f221f4db03"
     },
     {
       "path": "docs/arduino_migration.md",
-      "bytes": 3790,
-      "sha256": "08831d0c768e3f65ea5205d43850f61e9fe4e22f01bf68e8deb823cad217ae63"
+      "bytes": 9268,
+      "sha256": "5749eb426dbaceb42b6ee5afef4190550ccdb33dac6db7851ccf5405a9d2e8ad"
     },
     {
       "path": "docs/authority_interfaces.md",
