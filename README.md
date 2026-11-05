@@ -16,6 +16,10 @@ cd ~/weeny_ws
 
 The detailed local walkthrough is in [distributed computers v1](distributed%20computers%20v1/README.md).
 The split deployment commands are in its [network guide](distributed%20computers%20v1/docs/network_nodes.md).
+Optional per-computer CPU, memory, ROS timing, fault recording, and a desktop
+dashboard are documented in [Performance inspection](PERFORMANCE_INSPECTION.md).
+Download the [PDF run guide](output/pdf/performance-inspection-run-guide.pdf) for
+setup, hardware/simulator startup, dashboard use, logs, replay, and troubleshooting.
 Build outputs, live process records, and raw session logs are excluded from Git.
 The actual UNO R4 firmware remains a separate repository, needed only for hardware
 work; the included older firmware copies are historical references.

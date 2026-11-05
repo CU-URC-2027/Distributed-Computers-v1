@@ -10,5 +10,6 @@
   <test_depend>python3-pytest</test_depend>
   <exec_depend>mini_rover_sim</exec_depend>
   <exec_depend>mini_rover_c2</exec_depend>
+  <exec_depend>mini_rover_inspection</exec_depend>
   <export><build_type>ament_python</build_type></export>
 </package>

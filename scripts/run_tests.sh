@@ -13,6 +13,7 @@ python3 -m pytest -q \
   "$workspace_root/src/mini_rover_oc/test" \
   "$workspace_root/src/mini_rover_c2/test" \
   "$workspace_root/src/mini_rover_bridge/test" \
+  "$workspace_root/src/mini_rover_inspection/test" \
   "$workspace_root/src/mini_rover_c2/mini_rover_c2/legacy"/test_*.py \
   "$workspace_root/src/mini_rover_c2/mini_rover_c2/legacy/gui_regression.py"
 check_binary=$(mktemp /tmp/mini-rover-guard-test.XXXXXX)

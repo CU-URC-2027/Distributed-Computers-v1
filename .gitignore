@@ -3,6 +3,7 @@
 /install/
 /log/
 /run_logs/
+/performance_logs/
 /validation/
 /.dcv1_build/
 **/__pycache__/
